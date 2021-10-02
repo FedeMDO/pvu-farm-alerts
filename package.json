@@ -1,0 +1,26 @@
+{
+  "name": "pvu-farm-alerts",
+  "version": "1.0.0",
+  "description": "PVU Farm Alerts Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedeMDO/pvu-farm-alerts.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedeMDO/pvu-farm-alerts/issues"
+  },
+  "homepage": "https://github.com/FedeMDO/pvu-farm-alerts#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
